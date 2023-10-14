@@ -1,4 +1,4 @@
-import star from "./assets/star-regular.svg";
+import star from "./assets/star-regular.png";
 function Card() {
   return (
     <>
@@ -15,6 +15,10 @@ function Card() {
         <div className="rating">
           <p>Rate this album</p>
           <div className="etoile">
+            <img src={star} alt="etoiles de pour noter l'album" />
+            <img src={star} alt="etoiles de pour noter l'album" />
+            <img src={star} alt="etoiles de pour noter l'album" />
+            <img src={star} alt="etoiles de pour noter l'album" />
             <img src={star} alt="etoiles de pour noter l'album" />
           </div>
         </div>
