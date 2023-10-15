@@ -48,8 +48,12 @@ html {
     }
     .etoile {
       flex: 1;
-      text-align: end;
       padding-right: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+      padding-left: 1rem;
       img {
         max-width: 1.5rem;
       }
